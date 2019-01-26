@@ -1,0 +1,8 @@
+{
+  "project_name": "New Workflow",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "A short description of the RNAseq project data and hypothesis.",
+  "use_example_data": ["No", "Yes"],
+  "download_genome": ["None", "Human (GENCODE)", "Mouse (GENCODE)"],
+  "download_sortmerna": ["No", "Yes"]
+}
